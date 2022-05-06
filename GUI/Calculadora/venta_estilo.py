@@ -1,0 +1,11 @@
+import tkinter
+ventana = tkinter.Tk()
+ventana.title("Hola")
+ventana.geometry("500x500")
+boton1 = tkinter.Button(ventana, text="Click", width=7,height=5)
+boton2 = tkinter.Button(ventana, text="Clic2k", width=7,height=5)
+boton3 = tkinter.Button(ventana, text="Click3", width=7,height=5)
+boton1.grid(row=0,column=0,padx=10,pady=10)
+boton2.grid(row=0,column=1)
+boton3.grid(row=0,column=2)
+ventana.mainloop()

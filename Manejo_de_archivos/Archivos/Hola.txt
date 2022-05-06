@@ -1,0 +1,4 @@
+Hola, soy un archivo completamente nuevo de texto.
+Escribo muchas líneas para poder de esta manera contar letras.
+De hecho puedo seguir escribiendo más líneas sin parar, todo esto es asombroso.
+Nosotros podemos programar ideas, me encanta saber que es posible...

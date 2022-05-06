@@ -1,0 +1,31 @@
+.content{
+    font-family: 'Abel', cursive;
+    text-align: center;
+    color: #000;
+}
+
+.content p{
+    color: #025;
+    font-size: 30px;
+}
+
+.content h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 70px;
+    margin-block-start: -30px;
+    margin-block-end: -1px;
+}
+
+.image-principal{
+    width: 490px;
+    height: 155px;
+    padding-left: 220px;
+}
+
+.image-python{
+    width: 170px;
+    height: 170px;
+    margin-top: -50px;
+    padding-left: 370px;
+    padding-top: 60px;
+}

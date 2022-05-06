@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "calculadora.py", line 8, in <module>
+  File "tkinter\__init__.pyc", line 2270, in __init__
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    {C:\Users\pc\Python\GUI\Calculadora\dist\Calculadora_EsT\lib\tcl} C:/Users/pc/Python/GUI/Calculadora/dist/Calculadora_EsT/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/library C:/Users/pc/Python/GUI/Calculadora/library C:/Users/pc/Python/GUI/Calculadora/tcl8.6.9/library C:/Users/pc/Python/GUI/tcl8.6.9/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+Traceback (most recent call last):
+  File "calculadora.py", line 8, in <module>
+  File "tkinter\__init__.pyc", line 2270, in __init__
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    {C:\Users\pc\Python\GUI\Calculadora\dist\Calculadora_EsT\lib\tcl} C:/Users/pc/Python/GUI/Calculadora/dist/Calculadora_EsT/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/lib/tcl8.6 C:/Users/pc/Python/GUI/Calculadora/dist/library C:/Users/pc/Python/GUI/Calculadora/library C:/Users/pc/Python/GUI/Calculadora/tcl8.6.9/library C:/Users/pc/Python/GUI/tcl8.6.9/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+

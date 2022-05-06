@@ -1,0 +1,9 @@
+|       LISTA DE ESTUDIANTES       |
+------------------------------------
+|     NOMBRE COMPLETO     | PUNTOS |
+------------------------------------
+|    Estela Chipantasi    |   5    |
+|      Edison Rivera      |   9    |
+|       Juan Carlos       |   8    |
+|        Luis Feijo       |   7    |
+------------------------------------
