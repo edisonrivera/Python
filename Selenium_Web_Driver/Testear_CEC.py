@@ -14,12 +14,12 @@ driver.get("https://aps.cec-epn.edu.ec/portal/index.php/ctrlwelcome")
 
 #Enviando usuario
 user = driver.find_element(By.ID, "identification")
-user.send_keys("1752774305")
+user.send_keys("17527743")
 time.sleep(2)
 
 #Enviando pass
 password = driver.find_element(By.ID, "password")
-password.send_keys("155j8e5e")
+password.send_keys("")
 time.sleep(2)
 
 #Entrar en la página
