@@ -13,7 +13,6 @@ venta_principal.attributes("-alpha", 0.9) #Transparencia (0 a 1)
 pantalla = Entry(venta_principal, font="Calibri 15") #Vista de calculadora
 pantalla.grid(row=0,column=0,columnspan=4,padx=10,pady=5)
 venta_principal.attributes("-topmost",1) #Jerarquía de ventanas
-venta_principal.iconbitmap(r"C:\Users\pc\Python\GUI\Calculadora\estilos\icono.ico") #Cambia el icono por defecto
 i = 0
 """
 window.lift()               Funcion al igual que "-topmost"

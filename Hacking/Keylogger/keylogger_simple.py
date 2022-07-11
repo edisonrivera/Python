@@ -1,4 +1,3 @@
-"""
 import datetime
 from pynput.keyboard import Listener
 
@@ -93,9 +92,3 @@ def mover_fichero():
 if __name__ == '__main__':
     mover_fichero()
     key_listener()
-"""
-a = 1
-b = 0
-a = a ^ b
-b = a ^ b
-print (a,b,sep="444")

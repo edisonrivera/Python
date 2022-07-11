@@ -8,5 +8,5 @@ class Hilos(threading.Thread):
     def run (self): #Se presenta un mensaje más amigable al usuario
         print("Hilo:",str(self.__x))
 
-for i in range(10): 
+for i in range(1000): 
     Hilos(i).start() #start() inicia la actividad de un hilo

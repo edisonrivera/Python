@@ -6,4 +6,4 @@ if direction == "w":
     print ("You push \'w\' key")
 else:
     print ("Hello")
-    system("cls")
+    # system("cls")

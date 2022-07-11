@@ -8,7 +8,7 @@ def try_connect():
             port = 3306,
             user = "root",
             password = "HoLa@outlook18",
-            db = 'record_company_sql'
+            db = 'registro'
         ) 
 
     except Error as ex:
@@ -17,10 +17,14 @@ def try_connect():
     return conexion
 
     
+
 if __name__ == "__main__":
     conexion = try_connect()
     if conexion:
         cursor=conexion.cursor()
-        cursor.execute("SELECT database();")
-        registro=cursor.fetchone()
+        cursor.execute("SELECT * FROM datos")
+
+        # fetachall() -> Seleccionar todos los registros.
+        registro = cursor.fetchall()
+        # registro=cursor.fetchone()
         print("Conectado a la BD:", registro)

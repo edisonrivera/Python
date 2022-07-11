@@ -8,10 +8,9 @@ engine.setProperty("voice", "spanish")
 engine.say("Hola mi niña bella")
 engine.runAndWait()
 
-"""r = sr.Recognizer()
+r = sr.Recognizer()
 with sr.Microphone() as source:
     print("You can talk right now ! ")
     audio = r.listen(source)
     text = r.recognize_google(audio,language="es-EC")
     print(text)
-"""
